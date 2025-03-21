@@ -34,7 +34,7 @@ function renderProducts(products) {
           <p class="card-text fw-bold">€${product.price}</p>
           <button class="btn btn-warning me-2" onclick='editProduct("${product._id}")'>Modifica</button>
           <button class="btn btn-danger" onclick='deleteProduct("${product._id}")'>Elimina</button>
-          <a href="details.html?id=${product._id}" class="btn btn-info mt-2">Dettagli</a>
+          <a href="dettagli.html?id=${product._id}" class="btn btn-info mt-2">Dettagli</a>
         </div>
       </div>
     `;
