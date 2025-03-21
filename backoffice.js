@@ -64,7 +64,7 @@ form.addEventListener("submit", (e) => {
     .then((res) => {
       if (res.ok) {
         alert(productId ? "Prodotto modificato!" : "Prodotto creato!");
-        window.location.href = "index.html";
+        window.location.href = "backoffice.html";
       } else {
         throw new Error("Errore nella richiesta");
       }
